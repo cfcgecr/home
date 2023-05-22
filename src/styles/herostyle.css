@@ -1,0 +1,16 @@
+.achievement{
+    display: flex;
+}
+
+.task{
+    font-size: 1rem;
+    width: 2rem;
+}
+.number{
+    font-family: var(--stylish-font);
+    font-size: 2rem;
+    color: var(--primary-green);
+}
+.number::after{
+    content: '+';
+}
